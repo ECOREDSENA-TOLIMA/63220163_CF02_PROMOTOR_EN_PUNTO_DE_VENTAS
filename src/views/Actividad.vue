@@ -13,300 +13,315 @@ export default {
   name: 'ActividadDidactica',
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Promoción y servicio al cliente en el punto de ventas',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        '<b> Objetivo:</b> validar el conocimiento adquirido sobre las herramientas de promoción y servicio al cliente.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la capital de Francia?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Cuál es el objetivo principal de medir la satisfacción del cliente en una campaña promocional?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'París', esCorrecta: true },
-            { id: 'b', texto: 'Londres', esCorrecta: false },
-            { id: 'c', texto: 'Berlín', esCorrecta: false },
-            { id: 'd', texto: 'Madrid', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Establecer precios óptimos para cada cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Evaluar el impacto de la campaña y realizar ajustes necesarios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Comparar ventas con las campañas de la competencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Obtener datos para incrementar la fidelidad del cliente.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Medir la satisfacción permite evaluar el impacto y ajustar la campaña.',
+          mensaje_incorrecto:
+            'Incorrecto. Medir la satisfacción se enfoca en evaluar el impacto y realizar ajustes.',
         },
         {
           id: 2,
-          texto: '¿Cuál es el planeta más cercano al Sol?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Qué técnica permite obtener información directa del cliente en el punto de venta?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Venus', esCorrecta: false },
-            { id: 'b', texto: 'Mercurio', esCorrecta: true },
-            { id: 'c', texto: 'Tierra', esCorrecta: false },
-            { id: 'd', texto: 'Marte', esCorrecta: false },
+            { id: 'a', texto: 'Revisión de ventas', esCorrecta: false },
+            { id: 'b', texto: 'Encuesta de satisfacción', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Observación de la competencia',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Comparación de precios', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! Las encuestas de satisfacción proporcionan información directa del cliente.',
+          mensaje_incorrecto:
+            'Incorrecto. Las encuestas de satisfacción permiten obtener información directa de los clientes.',
         },
         {
           id: 3,
-          texto: "¿Quién escribió 'Cien años de soledad'?",
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Cuál de las siguientes opciones NO es una fuente primaria de información?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Gabriel García Márquez', esCorrecta: true },
-            { id: 'b', texto: 'Mario Vargas Llosa', esCorrecta: false },
-            { id: 'c', texto: 'Jorge Luis Borges', esCorrecta: false },
-            { id: 'd', texto: 'Pablo Neruda', esCorrecta: false },
+            { id: 'a', texto: 'Entrevistas con clientes', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Registros de ventas históricas',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Encuestas realizadas a compradores',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Opiniones de los consumidores',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Exacto! Los registros de ventas son una fuente secundaria.',
+          mensaje_incorrecto:
+            'No es correcto. Los registros de ventas pertenecen a las fuentes secundarias.',
         },
         {
           id: 4,
-          texto: '¿Cuál es el elemento químico con el símbolo H?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué es el CRM en el contexto del servicio al cliente?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Helio', esCorrecta: false },
-            { id: 'b', texto: 'Hidrógeno', esCorrecta: true },
-            { id: 'c', texto: 'Hierro', esCorrecta: false },
-            { id: 'd', texto: 'Hafnio', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Un sistema para gestionar relaciones y recopilar datos del cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un método para registrar el inventario en el punto de venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Una herramienta para mejorar los descuentos en ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un software de análisis financiero y contable.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El CRM se utiliza para gestionar relaciones y datos del cliente.',
+          mensaje_incorrecto:
+            'Incorrecto. El CRM está diseñado para gestionar relaciones y recopilar datos de clientes.',
         },
         {
           id: 5,
-          texto: '¿Cuál es el idioma más hablado del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Qué indicador de ventas permite evaluar la cantidad promedio de compras por cliente?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Inglés', esCorrecta: false },
-            { id: 'b', texto: 'Español', esCorrecta: false },
-            { id: 'c', texto: 'Chino mandarín', esCorrecta: true },
-            { id: 'd', texto: 'Árabe', esCorrecta: false },
+            { id: 'a', texto: 'Ventas por cliente', esCorrecta: true },
+            { id: 'b', texto: 'Tasa de conversión', esCorrecta: false },
+            { id: 'c', texto: 'Frecuencia de compra', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Participación en el mercado',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! El indicador de ventas por cliente permite calcular el promedio de compras.',
+          mensaje_incorrecto:
+            'Incorrecto. Las ventas por cliente calculan el promedio de compras.',
         },
         {
           id: 6,
-          texto: '¿En qué año llegó el hombre a la Luna?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Cuál es el propósito de la técnica de observación en el punto de venta?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1969', esCorrecta: true },
-            { id: 'b', texto: '1972', esCorrecta: false },
-            { id: 'c', texto: '1965', esCorrecta: false },
-            { id: 'd', texto: '1959', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Obtener información detallada sobre la competencia',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Registrar el comportamiento del consumidor de manera natural',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Identificar el precio óptimo del producto de manera natural',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Evaluar las campañas promocionales de otros puntos de venta',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Exacto! La observación permite registrar el comportamiento del consumidor de manera espontánea.',
+          mensaje_incorrecto:
+            'Incorrecto. La técnica de observación se centra en observar el comportamiento del consumidor.',
         },
         {
           id: 7,
-          texto: '¿Qué río atraviesa la ciudad de Londres?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Cuál es la diferencia principal entre preguntas cerradas y abiertas en un cuestionario?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Río Támesis', esCorrecta: true },
-            { id: 'b', texto: 'Río Danubio', esCorrecta: false },
-            { id: 'c', texto: 'Río Sena', esCorrecta: false },
-            { id: 'd', texto: 'Río Rin', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Las cerradas tienen respuestas específicas; las abiertas permiten libre expresión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Las abiertas son más fáciles de analizar que las cerradas por su cantidad de información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Las cerradas permiten múltiples respuestas, mientras que las abiertas no.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Las preguntas abiertas se usan solo para medir satisfacción.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! Las preguntas cerradas ofrecen opciones concretas, mientras que las abiertas permiten libre expresión.',
+          mensaje_incorrecto:
+            'No es correcto. Las preguntas cerradas tienen respuestas específicas, a diferencia de las abiertas.',
         },
         {
           id: 8,
-          texto: '¿Quién pintó la Mona Lisa?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            '¿Qué indicador de ventas mide el porcentaje de clientes que compran repetidamente en un periodo?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Leonardo da Vinci', esCorrecta: true },
-            { id: 'b', texto: 'Pablo Picasso', esCorrecta: false },
-            { id: 'c', texto: 'Vincent van Gogh', esCorrecta: false },
-            { id: 'd', texto: 'Claude Monet', esCorrecta: false },
+            { id: 'a', texto: 'Eficacia en ventas', esCorrecta: false },
+            { id: 'b', texto: 'Ventas por cliente', esCorrecta: false },
+            { id: 'c', texto: 'Fidelidad del cliente', esCorrecta: true },
+            { id: 'd', texto: 'Variación de las ventas', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Bien hecho! La fidelidad del cliente mide el porcentaje de compras repetidas.',
+          mensaje_incorrecto:
+            'Incorrecto. La fidelidad del cliente mide las compras repetidas en un periodo.',
         },
         {
           id: 9,
-          texto: '¿Cuál es el océano más grande del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué es un Data Mining en el contexto de CRM?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Océano Atlántico', esCorrecta: false },
-            { id: 'b', texto: 'Océano Índico', esCorrecta: false },
-            { id: 'c', texto: 'Océano Pacífico', esCorrecta: true },
-            { id: 'd', texto: 'Océano Ártico', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Una técnica para analizar datos y obtener patrones de comportamiento del cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un sistema de almacenamiento de datos de ventas con la suma de los comportamiento del cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una herramienta para incrementar la frecuencia de compra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un método para establecer relaciones con proveedores.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El Data Mining permite obtener patrones de comportamiento a partir de los datos.',
+          mensaje_incorrecto:
+            'No es correcto. El Data Mining analiza datos para obtener patrones de comportamiento.',
         },
         {
           id: 10,
-          texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Teléfono', esCorrecta: true },
-            { id: 'b', texto: 'Telégrafo', esCorrecta: false },
-            { id: 'c', texto: 'Bombilla', esCorrecta: false },
-            { id: 'd', texto: 'Radio', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto: '¿Qué continente alberga la selva amazónica?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'África', esCorrecta: false },
-            { id: 'b', texto: 'Asia', esCorrecta: false },
-            { id: 'c', texto: 'América del Sur', esCorrecta: true },
-            { id: 'd', texto: 'Oceanía', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto: '¿Cuál es el animal más rápido del mundo?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Tigre', esCorrecta: false },
-            { id: 'b', texto: 'León', esCorrecta: false },
-            { id: 'c', texto: 'Guepardo', esCorrecta: true },
-            { id: 'd', texto: 'Jaguar', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
           texto:
-            '¿Qué órgano es responsable de bombear la sangre en el cuerpo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué ventaja ofrece el uso de la observación en la evaluación de la satisfacción del cliente?',
+          imagen: require('@/assets/actividad/imagen.jpg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Cerebro', esCorrecta: false },
-            { id: 'b', texto: 'Pulmones', esCorrecta: false },
-            { id: 'c', texto: 'Corazón', esCorrecta: true },
-            { id: 'd', texto: 'Hígado', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto: "¿Quién es el autor de 'Don Quijote de la Mancha'?",
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Miguel de Cervantes', esCorrecta: true },
-            { id: 'b', texto: 'Federico García Lorca', esCorrecta: false },
-            { id: 'c', texto: 'Lope de Vega', esCorrecta: false },
-            { id: 'd', texto: 'Pedro Calderón de la Barca', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto: '¿Qué gas utilizan las plantas durante la fotosíntesis?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Oxígeno', esCorrecta: false },
-            { id: 'b', texto: 'Dióxido de carbono', esCorrecta: true },
-            { id: 'c', texto: 'Nitrógeno', esCorrecta: false },
-            { id: 'd', texto: 'Hidrógeno', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 16,
-          texto: '¿Quién fue el primer presidente de los Estados Unidos?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Thomas Jefferson', esCorrecta: false },
-            { id: 'b', texto: 'George Washington', esCorrecta: true },
-            { id: 'c', texto: 'Abraham Lincoln', esCorrecta: false },
-            { id: 'd', texto: 'John Adams', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 17,
-          texto: '¿Qué país tiene el mayor número de habitantes?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'India', esCorrecta: false },
-            { id: 'b', texto: 'Estados Unidos', esCorrecta: false },
-            { id: 'c', texto: 'China', esCorrecta: true },
-            { id: 'd', texto: 'Rusia', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 18,
-          texto: '¿Qué es el fenómeno de la refracción?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'La dispersión de la luz', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Garantiza precisión en las respuestas del cliente.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
-              texto: 'El cambio de dirección de la luz',
+              texto:
+                'Aumenta la confiabilidad de las respuestas de los cuestionarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Facilita el análisis de datos en tiempo real.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Captura comportamientos espontáneos y no invasivos.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'La absorción de la luz', esCorrecta: false },
-            { id: 'd', texto: 'La emisión de luz', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 19,
-          texto: '¿Cuál es el símbolo químico del oro?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Ag', esCorrecta: false },
-            { id: 'b', texto: 'Au', esCorrecta: true },
-            { id: 'c', texto: 'Fe', esCorrecta: false },
-            { id: 'd', texto: 'Cu', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 20,
-          texto: '¿En qué año comenzó la Segunda Guerra Mundial?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: '1914', esCorrecta: false },
-            { id: 'b', texto: '1939', esCorrecta: true },
-            { id: 'c', texto: '1945', esCorrecta: false },
-            { id: 'd', texto: '1929', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Exacto! La observación permite captar comportamientos espontáneos sin interferir.',
+          mensaje_incorrecto:
+            'No es correcto. La observación se centra en captar comportamientos espontáneos y naturales.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

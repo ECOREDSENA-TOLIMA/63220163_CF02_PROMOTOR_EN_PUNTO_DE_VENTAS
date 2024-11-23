@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE_DEL_COMPONENTE_FORMATIVO'
+module.exports = 'Promoción y servicio al cliente en el punto de ventas'

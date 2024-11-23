@@ -2,17 +2,288 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 27%
+    right: 67%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 45%
+    right: 22%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 28%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #12263F
+
+.boton *, .boton--sm *
+  color: #FFFFFF
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img-01.png") !important
+
+.tema1
+  .bloque-texto-g.color-secundario
+    background-color: #F9D648
+
+  .fondo3-t3
+    background: linear-gradient(to bottom, #FFF, #FFFDF4, #FFF)
+    margin-inline: -3rem
+    @media screen and (max-width: $bp-max-sm)
+      margin-inline: -1.5rem
+
+.tema2
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+    display: flex
+
+.tema3
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background: linear-gradient(180deg,#FFECDA  0%, rgb(255, 248, 224) 100%)
+  .linea-tiempo-d__item,.acordion
+    .tarjeta.tarjeta--gris
+      background-color: #DFECE9
+
+  .acordion__activo
+    background: linear-gradient(180deg, #FFECDA  0%, rgb(255, 248, 224) 100%)
+
+  .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #09614D
+    color: #FFFF
+
+  .linea-tiempo-edit
+    .linea-tiempo-d__item__content
+      transition: all .3s linear
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: #09614D !important
+        color: white !important
+      .linea-tiempo-d__item__content
+        background-color: #FFE3C7 !important  
+
+.tema4
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+    display: flex
+
+  .bloque-texto-g.color-secundario
+    background-color: #F9D648
+
+.tema5
+  .fondo3-t3
+    background: linear-gradient(to bottom, #FFF, #FFFDF4, #FFF)
+    margin-inline: -3rem
+    @media screen and (max-width: $bp-max-sm)
+      margin-inline: -1.5rem
+
+.tema6
+  .tarjeta.color5
+    background-color: #FFECDA
+
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background: linear-gradient(180deg,#FFECDA  0%, rgb(255, 248, 224) 100%)
+  .linea-tiempo-d__item,.acordion
+    .tarjeta.tarjeta--gris
+      background-color: #DFECE9
+
+  .acordion__activo
+    background: linear-gradient(180deg, #FFECDA  0%, rgb(255, 248, 224) 100%)
+
+  .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #09614D
+    color: #FFFF
+
+  .linea-tiempo-edit
+    .linea-tiempo-d__item__content
+      transition: all .3s linear
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: #09614D !important
+        color: white !important
+      .linea-tiempo-d__item__content
+        background-color: #FFE3C7 !important  
+
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+    display: flex
+
+.tema7
+  .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+    display: flex
+
+  .bloque-texto-d.color-secundario:before
+    background-color: #FFF8E0
+
+  .bloque-texto-d
+    border-top: 2px solid $color-secundario
+    position: relative
+
+  .BG04
+    background-image: url("../assets/curso/temas/BG04.svg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+  .tarjetas-up
+    overflow: hidden
+    border-radius: 5px
+    position: relative
+    &_card
+      transition: bottom .3s ease-in-out
+      position: absolute
+      border-radius: 5px
+      width: 100%
+      height: 100%
+      left: 0
+      bottom: -82%
+      @media (min-width: $bp-min-xxl)
+        bottom: -89%
+      @media (max-width: $bp-max-xl)
+        bottom: -90%
+      @media (max-width: $bp-max-lg)
+        bottom: -89%
+      @media (max-width: $bp-max-md)
+        bottom: -89%
+      @media (max-width: $bp-max-sm)
+        bottom: -89%
+      @media (max-width: $bp-max-xs)
+        bottom: -87%
+      i:last-child
+        display: none
+    &:hover
+      .tarjetas-up_card
+        bottom: -30%
+        @media (min-width: $bp-min-xxl)
+          bottom: -32%
+        @media (max-width: $bp-max-xl)
+          bottom: -47%
+        @media (max-width: $bp-max-lg)
+          bottom: -40%
+        @media (max-width: $bp-max-md)
+          bottom: -40%
+        @media (max-width: $bp-max-sm)
+          bottom: -40%
+        @media (max-width: $bp-max-xs)
+          bottom: -21%
+      i:first-child
+        display: none
+      i:last-child
+        display: block    
+
+  .bloque-texto-g.color-secundario
+    background-color: #F9D648
+
+  .tarjeta.color5
+    background-color: #FFECDA
+
+  //- tarjeta de deslizamiento arriba abajo 
+  // configuración para 4 tarjetas
+  .tarjetas-upper
+    overflow: hidden
+    border-radius: 5px
+    position: relative
+    &_card
+      background: #09614D
+      h5
+        color: #fff
+      .fas.fa-caret-up 
+        color: #fff 
+      transition: bottom .3s ease-in-out
+      position: absolute
+      border-radius: 5px
+      width: 100%
+      height: 100%
+      left: 0
+      bottom: -82%
+      @media (min-width: $bp-min-xxl)
+        bottom: -89%
+      @media (max-width: $bp-max-xl)
+        bottom: -90%
+      @media (max-width: $bp-max-lg)
+        bottom: -87%
+      @media (max-width: $bp-max-md)
+        bottom: -92%
+      @media (max-width: $bp-max-sm)
+        bottom: -92%
+      @media (max-width: $bp-max-xs)
+        bottom: -91%
+      i:last-child
+        display: none
+    &:hover
+      .tarjetas-upper_card
+        background: linear-gradient(180deg,#FFECDA  0%, rgb(255, 248, 224) 100%)
+        h5
+          color: #12263F !important
+        .fas.fa-caret-down 
+          color: #09614D 
+        bottom: -30%
+        @media (min-width: $bp-min-xxl)
+          bottom: -32%
+        @media (max-width: $bp-max-xl)
+          bottom: -47%
+        @media (max-width: $bp-max-lg)
+          bottom: -18%
+        @media (max-width: $bp-max-md)
+          bottom: -61%
+        @media (max-width: $bp-max-sm)
+          bottom: -62%
+        @media (max-width: $bp-max-xs)
+          bottom: -50%
+      i:first-child
+        display: none
+      i:last-child
+        display: block
+
+  //tablas
+  .tabla-a thead
+    background-color: #FF9E9E
+    color: #12263F
+    text-align: center
+
+  .clstabla table
+    min-width: 1060px
+
+  .tabla-b thead
+    background-color: #FF9E9E
+    color: #12263F
+    text-align: center
+
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background: linear-gradient(180deg,#FFECDA  0%, rgb(255, 248, 224) 100%)
+  .linea-tiempo-d__item,.acordion
+    .tarjeta.tarjeta--gris
+      background-color: #DFECE9
+
+  .acordion__activo
+    background: linear-gradient(180deg, #FFECDA  0%, rgb(255, 248, 224) 100%)
+
+  .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #09614D
+    color: #FFFF
+
+  .linea-tiempo-edit
+    .linea-tiempo-d__item__content
+      transition: all .3s linear
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: #09614D !important
+        color: white !important
+      .linea-tiempo-d__item__content
+        background-color: #FFE3C7 !important  
+
+  .bloque-texto-b.color-acento-contenido:before
+    background-color: #FFF8E0
+
+  .fondo3-t3
+    background: linear-gradient(to bottom, #FFF, #FFFDF4, #FFF)
+    margin-inline: -3rem
+    @media screen and (max-width: $bp-max-sm)
+      margin-inline: -1.5rem
