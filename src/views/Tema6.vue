@@ -93,7 +93,7 @@
 
       div(data-aos="fade-left")
         h3 Pedir el concepto de otras personas respecto a lo que podría mejorar en la comunicación oral
-        p Solicitar feedback de colegas, amigos o mentores proporciona perspectivas externas valiosas. Otros pueden detectar aspectos que uno mismo pasa por alto y ofrecer sugerencias constructivas. Esta retroalimentación puede abarcar tanto el contenido del mensaje como la forma de presentarlo y la interacción con el receptor. 
+        p Solicitar #[i feedback] de colegas, amigos o mentores proporciona perspectivas externas valiosas. Otros pueden detectar aspectos que uno mismo pasa por alto y ofrecer sugerencias constructivas. Esta retroalimentación puede abarcar tanto el contenido del mensaje como la forma de presentarlo y la interacción con el receptor. 
 
     Separador
 

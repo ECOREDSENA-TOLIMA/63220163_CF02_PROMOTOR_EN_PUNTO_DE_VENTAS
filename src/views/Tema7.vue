@@ -72,7 +72,7 @@
           img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema7/img-05-01.svg', alt='La gráfica comparte un embudo que presenta la exhibición de los productos de una manera estratégica organizando las categorías según las necesidades del cliente para entender que el cliente recibe una exhibición optimizada.')
           img.d-block.d-lg-none(src='@/assets/curso/temas/tema7/img-05-02.svg', alt='La gráfica comparte un embudo que presenta la exhibición de los productos de una manera estratégica organizando las categorías según las necesidades del cliente para entender que el cliente recibe una exhibición optimizada.') 
 
-    p(data-aos="fade-down-right") El plan de marketing, especialmente las actividades de publicidad y promoción, está diseñado para atraer nuevos clientes. Sin embargo, es responsabilidad del promotor de ventas cautivar a estos clientes potenciales y enamorarlos del producto o servicio para fomentar compras repetidas. La empresa, a su vez, debe cumplir sus promesas de calidad y satisfacer las expectativas del cliente para mantener su lealtad.
+    p(data-aos="fade-down-right") El plan de #[i marketing,] especialmente las actividades de publicidad y promoción, está diseñado para atraer nuevos clientes. Sin embargo, es responsabilidad del promotor de ventas cautivar a estos clientes potenciales y enamorarlos del producto o servicio para fomentar compras repetidas. La empresa, a su vez, debe cumplir sus promesas de calidad y satisfacer las expectativas del cliente para mantener su lealtad.
     p.mb-5(data-aos="fade-down-left") Vallejo López y Sánchez Paredes (2011) resumen esta idea con una frase que destaca la relevancia del servicio al cliente:
 
     .row.justify-content-center.mb-5(data-aos="fade-down-right")
@@ -99,44 +99,44 @@
         .col-lg-8.col-12.mb-3(data-aos="fade-right")
           p La relación entre el servicio al cliente y las ventas es directa y significativa. Un excelente servicio al cliente puede ser el factor decisivo que incline a un cliente a elegir una empresa sobre otra. Sin embargo, mejorar el servicio al cliente no es una tarea sencilla y requiere que las empresas centren sus esfuerzos en este aspecto, implementando programas que involucren a toda la organización.
           p Crear un #[b departamento de servicio al cliente] dedicado es un paso importante para dirigir y gestionar las iniciativas en este ámbito. Este departamento puede establecer políticas claras, procedimientos y estándares que aseguren una atención al cliente de alta calidad en todos los puntos de contacto.
-          p En el #[b punto de venta], el promotor se convierte en el principal representante de la empresa para conocer y satisfacer las expectativas del cliente. Su interacción directa con los clientes le permite recopilar información valiosa que puede utilizarse para mejorar productos, servicios y estrategias de marketing. Esta información se obtiene de diversas formas:
+          p En el #[b punto de venta], el promotor se convierte en el principal representante de la empresa para conocer y satisfacer las expectativas del cliente. Su interacción directa con los clientes le permite recopilar información valiosa que puede utilizarse para mejorar productos, servicios y estrategias de #[i marketing.] Esta información se obtiene de diversas formas:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-xxl-4.col-lg-6.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
+      .col-xxl-4.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema7/img-07.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG04
+          .tarjetas-upper_card
             .title.d-flex.align-items-center.justify-content-center.mb-4
               span
-                i.fas.fa-caret-up.fa-2x.me-3(style="color:#09614D")
-                i.fas.fa-caret-down.fa-2x.me-3(style="color:#09614D")
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
               h5.mb-0 Observaciones directas
-            p.mb-0.px-3 El promotor puede notar las reacciones y comportamientos de los clientes frente a los productos.
-      
-      .col-xxl-4.col-lg-6.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
+            p.text-center.mb-0.px-0 El promotor puede notar las reacciones y comportamientos de los clientes frente a los productos.
+
+      .col-xxl-4.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema7/img-08.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG04
+          .tarjetas-upper_card
             .title.d-flex.align-items-center.justify-content-center.mb-4
               span
-                i.fas.fa-caret-up.fa-2x.me-3(style="color:#09614D")
-                i.fas.fa-caret-down.fa-2x.me-3(style="color:#09614D")
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
               h5.mb-0 Comentarios espontáneos
-            p.mb-0.px-3 Los clientes a menudo expresan de manera natural lo que quieren o esperan del producto.
-      
-      .col-xxl-4.col-lg-6.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
+            p.text-center.mb-0.px-0 Los clientes a menudo expresan de manera natural lo que quieren o esperan del producto.
+
+      .col-xxl-4.col-lg-4.col-sm-10.col-md-8.mb-xxl-0.mb-4(data-aos="fade-right")
+        .tarjetas-upper(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema7/img-09.png' alt="Imagen decorativa")
-          .tarjetas-up_card.BG04
+          .tarjetas-upper_card
             .title.d-flex.align-items-center.justify-content-center.mb-4
               span
-                i.fas.fa-caret-up.fa-2x.me-3(style="color:#09614D")
-                i.fas.fa-caret-down.fa-2x.me-3(style="color:#09614D")
+                i.fas.fa-caret-up.fa-2x.me-2
+                i.fas.fa-caret-down.fa-2x.me-2
               h5.mb-0 Quejas y reclamos
-            p.mb-0.px-3 Las críticas constructivas son oportunidades para mejorar y satisfacer mejor las necesidades del cliente. 
+            p.text-center.mb-0.px-0 Las críticas constructivas son oportunidades para mejorar y satisfacer mejor las necesidades del cliente. 
 
     p(data-aos="fade-down-right") No siempre se requiere una encuesta de satisfacción formal para obtener esta información. Es esencial que las empresas establezcan mecanismos para que los promotores puedan transmitir esta retroalimentación a los gerentes de servicio al cliente y otros responsables de la toma de decisiones.
     p.mb-5(data-aos="fade-down-left") Para aprovechar al máximo la información recopilada y mejorar el servicio al cliente, las empresas deben:
@@ -176,13 +176,13 @@
               h3 Capacitar al personal
               p.mb-0 Ofrecer formación continua a los empleados para mejorar sus habilidades de comunicación, empatía y resolución de problemas.
 
-          .row.justify-content-center.align-items-center
-            .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema7/img-014.png', alt='Texto que describa la imagen')
-
-            .col-lg-6(data-aos="fade-left")
+          .row.justify-content-center.align-items-center(data-aos="fade-right")
+            .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h3 Fomentar una cultura centrada en el cliente
-              p.mb-0 Promover valores y prácticas que pongan al cliente en el centro de todas las decisiones y acciones de la empresa.i
+              p.mb-0 Promover valores y prácticas que pongan al cliente en el centro de todas las decisiones y acciones de la empresa.
+
+            .col-lg-6.col-10.order-lg-2.order-lg-1.mb-lg-0.mb-4(data-aos="fade-left")
+              img(src='@/assets/curso/temas/tema7/img-014.png', alt='Texto que describa la imagen')
 
     Separador
 
@@ -194,7 +194,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img-015.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El CRM (Customer Relationship Management) es un modelo de gestión de marketing, creado para administrar la relación con el cliente a través de un software denominado de la misma forma,  tiene como objetivo recolectar datos e información del cliente y caracterizarlo, conociendo sus gustos, preferencias, tendencias y hasta las insatisfacciones; de esta forma la empresa puede adelantarse y adaptar el producto a sus necesidades; igualmente, puede añadir valor agregado a la oferta tomando ventaja sobre la competencia.
+        p.mb-0 El CRM #[i (Customer Relationship Management)] es un modelo de gestión de marketing, creado para administrar la relación con el cliente a través de un software denominado de la misma forma,  tiene como objetivo recolectar datos e información del cliente y caracterizarlo, conociendo sus gustos, preferencias, tendencias y hasta las insatisfacciones; de esta forma la empresa puede adelantarse y adaptar el producto a sus necesidades; igualmente, puede añadir valor agregado a la oferta tomando ventaja sobre la competencia.
 
     p.mb-5(data-aos="fade-down-right") El promotor de ventas puede jugar varios papeles dentro del punto de venta: degustador, impulsador, demostrador o representante – vendedor. De acuerdo con esto, podrá usar y direccionar a los clientes al uso de esta herramienta, que generalmente esta publicada en la web de la empresa para consignar la información que se va obteniendo. En los casos donde el promotor está encargado del contacto inicial, el cual incluye desde el saludo al cliente al ingresar al punto de ventas hasta el cierre de la venta y el seguimiento de la misma, deberá ir registrando sistemáticamente toda la información que obtenga del cliente en el CRM, y usarla cada vez que lo atienda, mediante la realimentación de información sobre sus gustos y preferencias y de todos aquellos datos que le van a permiten realizar una nueva venta. 
 
@@ -323,16 +323,16 @@
                 td.text-center(style="background-color: #F6F6F6") Captar atención (1 y 2)
 
               tr
-                td.text-center(style="background-color: #FFFF") #[b 2.] Interés Casual
+                td.text-center(style="background-color: #FFFF") #[b 2.] Interés casual
                 td.text-center(style="background-color: #F6F6F6") Preparación a través de las preguntas y presentación del objeto de la venta (3)
 
               tr
                 td.text-center(style="background-color: #FFFF") #[b 3.] Interés motivado
-                td.text-center(style="background-color: #F6F6F6") Manejo de Objeciones (4) 
+                td.text-center(style="background-color: #F6F6F6") Manejo de objeciones (4) 
 
               tr
-                td.text-center(style="background-color: #FFFF") #[b 4.] Comparación de Posibilidades
-                td.text-center(style="background-color: #F6F6F6") Mensajes de Beneficio e intento de cierre (5) 
+                td.text-center(style="background-color: #FFFF") #[b 4.] Comparación de posibilidades
+                td.text-center(style="background-color: #F6F6F6") Mensajes de beneficio e intento de cierre (5) 
 
               tr
                 td.text-center(style="background-color: #FFFF") #[b 6.] Decisión de compra
@@ -466,14 +466,14 @@
     #t_7_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 7.4. Acciones de mejoramiento
 
-    p.mb-5 Las acciones de mejoramiento en las actividades de promoción deben estar relacionadas con el servicio al cliente, dado que, a través de este, se logran establecer nuevas necesidades del consumidor que se presentan como quejas o reclamos por algún tipo de insatisfacción, éstas  permiten ajustar tanto el producto como las campañas promocionales, de acuerdo a dichas necesidades.
+    p.mb-5 Las acciones de mejoramiento en las actividades de promoción deben estar relacionadas con el servicio al cliente, dado que, a través de este, se logran establecer nuevas necesidades del consumidor que se presentan como quejas o reclamos por algún tipo de insatisfacción, estas  permiten ajustar tanto el producto como las campañas promocionales, de acuerdo a dichas necesidades.
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img-025.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Si el marketing se dedica a facilitar el intercambio de productos y servicios, las quejas son una herramienta fundamental para adaptar la propuesta de servicio de una empresa a las expectativas del cliente. Las quejas son un beneficio para la empresa pues le permite conocer en qué está fallando y qué espera el cliente, además, un cliente que se queja es un cliente que le interesa buscar solución porque desea seguir comprando, de lo contrario, simplemente deja de comprar, así que, una solución con la cual quede satisfecho garantiza la permanencia del cliente, mostrando que lo ocurrido fue una situación circunstancial. 
+        p.mb-0 Si el #[i marketing] se dedica a facilitar el intercambio de productos y servicios, las quejas son una herramienta fundamental para adaptar la propuesta de servicio de una empresa a las expectativas del cliente. Las quejas son un beneficio para la empresa pues le permite conocer en qué está fallando y qué espera el cliente, además, un cliente que se queja es un cliente que le interesa buscar solución porque desea seguir comprando, de lo contrario, simplemente deja de comprar, así que, una solución con la cual quede satisfecho garantiza la permanencia del cliente, mostrando que lo ocurrido fue una situación circunstancial. 
 
     .row.justify-content-center.mb-4
       .col-12.col-md-10.col-lg-10
@@ -483,7 +483,7 @@
           img.d-none.d-sm-none.d-lg-block(src='@/assets/curso/temas/tema7/img-026-01.svg', alt='La gráfica comparte un embudo que presenta la exhibición de los productos de una manera estratégica organizando las categorías según las necesidades del cliente para entender que el cliente recibe una exhibición optimizada.')
           img.d-block.d-lg-none(src='@/assets/curso/temas/tema7/img-026-02.svg', alt='La gráfica comparte un embudo que presenta la exhibición de los productos de una manera estratégica organizando las categorías según las necesidades del cliente para entender que el cliente recibe una exhibición optimizada.') 
 
-    p.mb-5(data-aos="fade-down-right") Un tema que surge a raíz de la necesidad de mejorar el sistema de servicio al cliente, es el #[b “Marketing Relacional”] que busca fortalecer las relaciones con el cliente y comprometer a toda la organización hacia el mercado, buscando un equilibrio entre los objetivos de la empresa y los clientes. Sobre el tema de fidelización de clientes y marketing relacional se precisan algunas definiciones: 
+    p.mb-5(data-aos="fade-down-right") Un tema que surge a raíz de la necesidad de mejorar el sistema de servicio al cliente, es el #[b “#[i Marketing] Relacional”] que busca fortalecer las relaciones con el cliente y comprometer a toda la organización hacia el mercado, buscando un equilibrio entre los objetivos de la empresa y los clientes. Sobre el tema de fidelización de clientes y marketing relacional se precisan algunas definiciones: 
 
     .row.mb-5.justify-content-center
       .col-lg-5.mb-lg-0.mb-4(data-aos="fade-down-right")
@@ -512,7 +512,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.order-lg-1.order-2 
           p Es muy importante tener en cuenta que el sistema de queja y reclamos no tienen como objetivo solucionar todos los problemas que se le presenten al cliente, el objetivo es conocer los problemas que se presentan, detectar su raíz y buscar la solución para que no vuelva a ocurrir. 
-          p Las quejas requieren una atención inmediata y le pertenecen principalmente a quien la escucha, pero si éste no está en facultado para dar una solución, debe acompañar al cliente hasta encontrarla.  Una pérdida en las utilidades puede ser el resultado de una queja que no se ha tratado bien, o como resultado del cliente que no se queja del producto o servicio sino que se aleja de él, de ahí, la importancia de diseñar estrategias de mejoras del servicio al cliente como lo es el marketing relacional.
+          p Las quejas requieren una atención inmediata y le pertenecen principalmente a quien la escucha, pero si éste no está en facultado para dar una solución, debe acompañar al cliente hasta encontrarla.  Una pérdida en las utilidades puede ser el resultado de una queja que no se ha tratado bien, o como resultado del cliente que no se queja del producto o servicio sino que se aleja de él, de ahí, la importancia de diseñar estrategias de mejoras del servicio al cliente como lo es el #[i marketing] relacional.
           p El sistema de quejas y reclamos debe ser un proceso bien planeado, el talento humano debe estar preparado y entrenado para hacer esta prestación, debe existir un manual que indique los pasos a seguir en cada caso (no es lo mismo cuando la reclamación se presenta con un medicamento que con un producto como un juguete, para el caso del medicamento debe existir acciones que cumplan los requerimientos legales y medidas preventivas e inmediatas). Se debe contar con los medios para que el cliente tenga comunicación de forma fácil con la empresa.   
         .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/temas/tema7/img-027.png', alt='Imagen decorativa')

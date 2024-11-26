@@ -22,7 +22,83 @@
     p Esta técnica usa como herramienta formatos denominados cuestionarios diseñados por expertos, con un objetivo claro de información que debe suministrar el cliente. Es posible que al promotor de ventas se le asigne la aplicación de estos cuestionarios, mediante una breve entrevista al momento de contacto con el cliente; por tanto, es importante que conozca la herramienta.
     p.mb-5 Los aspectos más relevantes a considerar en la elaboración de un cuestionario son:
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-3.col-8.col-md-6.mb-3.order-lg-1.order-2
+        figure
+          img(src='@/assets/curso/temas/tema4/img-02.svg', alt='Imagen decorativa')
+      .col-lg-9.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+        .row.justify-content-center
+          .col-lg-6.col-12
+            ul.lista-ul
+              li
+                i.fas.fa-circle(style="color:#544403")
+                h4 #[b(style="color: #544403 !important") Organización del Formulario]
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Título.
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Instrucciones.
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Identificación del formulario. 
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Secciones o áreas específicas.
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Observaciones. 
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Identificación del encuestador. 
+
+          .col-lg-6.col-12
+            ul.lista-ul
+              li
+                i.fas.fa-circle(style="color:#544403")
+                h4 #[b(style="color: #544403 !important") Tipo de preguntas]
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Cerradas: solo permiten una respuesta concreta ya definida.
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Abiertas: permite la libre expresión del encuestado.
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Mixtas: se combinan el tipo de preguntas abiertas y cerradas.
+
+            ul.lista-ul
+              li
+                i.fas.fa-circle(style="color:#544403")
+                h4 #[b(style="color: #544403 !important") Redacción de las preguntas ]
+              li 
+                i.fas.fa-angle-right
+                p.mb-0 Terminología exacta. Evitar complejidad de las preguntas.
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-04.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Los cuestionarios varían de acuerdo a quien los diseña y al propósito para el cual se crean, por tanto, para su aplicación, sobre todo es fundamental direccionar las preguntas de acuerdo con la intencionalidad del conocimiento a conseguir.
+            br
+            br
+            | Un ejemplo de pregunta que podría ir incluida en el cuestionario con respuesta cerrada es:
+            br
+            br
+            | #[b 1. ¿Cómo evalúa la calidad del producto?]
+            br
+            br
+          .row.justify-content-center
+            .col-lg-4
+              p #[b a.] Excelente
+            .col-lg-4
+              p #[b b.] Buena 
+            .col-lg-4
+              p.mb-0 #[b c.] Mala 
+
+    //.row.justify-content-center.align-items-center
       .col-lg-3.col-10.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema4/img-02.svg', alt='Imagen decorativa')
       .col-lg-9.mb-4.mb-lg-0(data-aos="fade-left")
@@ -62,13 +138,13 @@
             ul.lista-ul.mb-3
               li(data-aos="fade-down")
                 i.fas.fa-chevron-right(style="color: #00223D")
-                p.mb-0 Cerradas: Solo permiten una respuesta concreta ya definida.
+                p.mb-0 Cerradas: solo permiten una respuesta concreta ya definida.
               li(data-aos="fade-down")
                 i.fas.fa-chevron-right(style="color: #00223D")
-                p.mb-0 Abiertas: Permite la libre expresión del encuestado.
+                p.mb-0 Abiertas: permite la libre expresión del encuestado.
               li(data-aos="fade-down")
                 i.fas.fa-chevron-right(style="color: #00223D")
-                p.mb-0 Mixtas: Se combinan el tipo de preguntas abiertas y cerradas.
+                p.mb-0 Mixtas: se combinan el tipo de preguntas abiertas y cerradas.
 
             ul.lista-ul.mb-2
               li.mb-0
@@ -80,7 +156,7 @@
                 i.fas.fa-chevron-right(style="color: #00223D")
                 p.mb-0 Terminología exacta. Evitar complejidad de las preguntas.
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
+    //.bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-03.png')})`}"
       )

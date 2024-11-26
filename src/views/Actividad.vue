@@ -23,7 +23,7 @@ export default {
           id: 1,
           texto:
             '¿Cuál es el objetivo principal de medir la satisfacción del cliente en una campaña promocional?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -57,7 +57,7 @@ export default {
           id: 2,
           texto:
             '¿Qué técnica permite obtener información directa del cliente en el punto de venta?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Revisión de ventas', esCorrecta: false },
@@ -78,7 +78,7 @@ export default {
           id: 3,
           texto:
             '¿Cuál de las siguientes opciones NO es una fuente primaria de información?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Entrevistas con clientes', esCorrecta: false },
@@ -106,7 +106,7 @@ export default {
         {
           id: 4,
           texto: '¿Qué es el CRM en el contexto del servicio al cliente?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -141,7 +141,7 @@ export default {
           id: 5,
           texto:
             '¿Qué indicador de ventas permite evaluar la cantidad promedio de compras por cliente?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Ventas por cliente', esCorrecta: true },
@@ -162,7 +162,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es el propósito de la técnica de observación en el punto de venta?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -198,7 +198,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál es la diferencia principal entre preguntas cerradas y abiertas en un cuestionario?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen3.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -235,7 +235,7 @@ export default {
           id: 8,
           texto:
             '¿Qué indicador de ventas mide el porcentaje de clientes que compran repetidamente en un periodo?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen4.svg'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Eficacia en ventas', esCorrecta: false },
@@ -251,7 +251,7 @@ export default {
         {
           id: 9,
           texto: '¿Qué es un Data Mining en el contexto de CRM?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen1.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -287,7 +287,7 @@ export default {
           id: 10,
           texto:
             '¿Qué ventaja ofrece el uso de la observación en la evaluación de la satisfacción del cliente?',
-          imagen: require('@/assets/actividad/imagen.jpg'),
+          imagen: require('@/assets/actividad/imagen2.svg'),
           barajarRespuestas: true,
           opciones: [
             {

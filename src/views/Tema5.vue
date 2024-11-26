@@ -11,9 +11,9 @@
       .col-lg-4.col-10.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema5/img-01.svg', alt='')
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
-        p Es una tarea que compete a los expertos en marketing, a directivos, jefes de mercadeo y gerentes. Se realiza con ayuda de la tecnología informática, en donde los software son muy útiles para la realización de estas operaciones, tal y como ocurre con la Administración Basada en la Relación con los Clientes o CRM, quien se encarga de efectuar estos cálculos y brindar de forma directa e inmediata los resultados.
+        p Es una tarea que compete a los expertos en #[i marketing,] a directivos, jefes de mercadeo y gerentes. Se realiza con ayuda de la tecnología informática, en donde los #[i software] son muy útiles para la realización de estas operaciones, tal y como ocurre con la Administración Basada en la Relación con los Clientes o CRM, quien se encarga de efectuar estos cálculos y brindar de forma directa e inmediata los resultados.
         p Los cálculos matemáticos requieren de conocimiento acerca de la aplicación de fórmulas y de la realización de la operación, como en el caso de los Indicadores de venta.
-        p Una vez realizado el cálculo se procede al análisis del resultado, éste estará sujeto a variables propias del interés de quien está haciendo la medición. Para realizar un buen análisis es fundamental comprender el concepto de lo que se está calculando, y de saber interpretar correctamente las cifras, de lo contrario, podrían causar grandes estragos en la toma de decisiones, y sin duda, en la gestión del proceso a implementar.
+        p.mb-0 Una vez realizado el cálculo se procede al análisis del resultado, este estará sujeto a variables propias del interés de quien está haciendo la medición. Para realizar un buen análisis es fundamental comprender el concepto de lo que se está calculando, y de saber interpretar correctamente las cifras, de lo contrario, podrían causar grandes estragos en la toma de decisiones, y sin duda, en la gestión del proceso a implementar.
   
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-down-right")
