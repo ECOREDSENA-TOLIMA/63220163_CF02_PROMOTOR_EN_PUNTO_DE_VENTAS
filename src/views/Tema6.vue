@@ -19,7 +19,7 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.1 Elementos de la comunicación
 
-    p.mb-5(data-aos="fade-left") Se pueden identificar 3 elementos principales: El emisor, el mensaje, el receptor
+    p.mb-5(data-aos="fade-left") Se pueden identificar 3 elementos principales: El emisor, el mensaje, el receptor:
 
     .row.mb-5(data-aos="flip-up")
       .col-lg-4.col-lg.mb-5.mb-lg-0
@@ -36,7 +36,7 @@
           .tarjeta.color5(style= "width: 100%")
             .p-4
               h4.text-center Mensaje
-              p.text-center La información que trasmite el emisor.
+              p.text-center La información que transmite el emisor.
 
       .col-lg-4.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -46,7 +46,7 @@
               h4.text-center Receptor
               p.text-center Persona que recibe el mensaje.
 
-    p.mb-5(data-aos="fade-right") Se debe considerar que en ciertas situaciones el promotor asume el papel de emisor, y en otros casos el de receptor.  Cuando se está en el papel de emisor, debe suministrar un mensaje claro, y cuando se está en el papel del receptor debe escuchar al emisor con el fin de comprender lo que dice.
+    p.mb-5(data-aos="fade-right") Se debe considerar que en ciertas situaciones el promotor asume el papel de emisor, y en otros casos el de receptor.  Cuando se está en el papel de emisor, debe suministrar un mensaje claro, y cuando se está en el papel del receptor debe, escuchar al emisor con el fin de comprender lo que dice.
 
     Separador
 
@@ -73,7 +73,7 @@
               p.mb-2 El tono de voz debe adaptarse al contexto y al interlocutor. Por ejemplo, un tono amable y entusiasta puede ser más efectivo en situaciones de venta, mientras que un tono más serio y calmado puede ser apropiado al abordar temas delicados. Además, variar el tono y la entonación mantiene el interés del oyente y enfatiza puntos clave.   
             
             .d-block(numero="3" titulo="Ser claro y preciso en el mensaje que se entrega")
-              p.mb-2 Es importante organizar las ideas antes de comunicarlas, utilizando un lenguaje sencillo y evitando tecnicismos innecesarios. Ser conciso y directo facilita la comprensión y retención del mensaje por parte del receptor. También es útil resumir los puntos principales y verificar si el interlocutor ha comprendido..
+              p.mb-2 Es importante organizar las ideas antes de comunicarlas, utilizando un lenguaje sencillo y evitando tecnicismos innecesarios. Ser conciso y directo facilita la comprensión y retención del mensaje por parte del receptor. También es útil resumir los puntos principales y verificar si el interlocutor ha comprendido.
             
             .d-block(numero="4" titulo="Escuchar con atención cuando le estén hablando")
               p.mb-2 La comunicación es un proceso bidireccional. Escuchar activamente al interlocutor permite responder adecuadamente a sus necesidades y preocupaciones. Mostrar interés, mantener contacto visual y evitar interrupciones son señales de respeto que fortalecen la relación con el cliente. 
@@ -102,8 +102,8 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-7.col-12.order-lg-1.order-2 
-        p A diferencia en la comunicación oral, en esta no se presenta un contacto directo con el receptor, ni tampoco una respuesta inmediata; de hecho, en muchos casos no hay respuesta. Este tipo de comunicación requiere del uso de las palabras adecuadas, de buena ortografía y correcto uso de los signos de puntuación, ya que una equivocación en uno de estos aspectos podría cambiar totalmente el sentido de lo que se quiso decir. Este tipo de comunicación es difícil puesto que no permiten transmitir el tono de voz ni acompañarse de la expresión corporal, que sin duda, contribuye a que el mensaje sea más claro.
-        p   La comunicación escrita es muy importante para el promotor de ventas puesto que debe entregar informes, llenar formatos o planillas y realizar otras actividades que implican escritura, algunas recomendaciones para mejorar la comunicación escrita son:
+        p A diferencia en la comunicación oral, en esta no se presenta un contacto directo con el receptor, ni tampoco una respuesta inmediata; de hecho, en muchos casos no hay respuesta. Este tipo de comunicación requiere del uso de las palabras adecuadas, de buena ortografía y correcto uso de los signos de puntuación, ya que una equivocación en uno de estos aspectos podría cambiar totalmente el sentido de lo que se quiso decir. Este tipo de comunicación es difícil puesto, que no permiten transmitir el tono de voz ni acompañarse de la expresión corporal, que sin duda, contribuye a que el mensaje sea más claro.
+        p La comunicación escrita es muy importante para el promotor de ventas puesto, que debe entregar informes, llenar formatos o planillas y realizar otras actividades que implican escritura, algunas recomendaciones para mejorar la comunicación escrita son:
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema6/img-04.svg', alt='Imagen decorativa')

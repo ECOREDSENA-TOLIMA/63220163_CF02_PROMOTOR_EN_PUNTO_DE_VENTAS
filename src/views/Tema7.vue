@@ -60,7 +60,7 @@
             .col-lg-2.col-4.mb-lg-0.mb-4 
               img.mb-3(src='@/assets/curso/temas/tema7/img-04.svg')
             .col-lg-9
-              p Estos resultados son reveladores. Aunque factores como la muerte, mudanzas, nuevas relaciones y competencia influyen en la pérdida de clientes, la razón más significativa (68%) es la actitud de indiferencia de los empleados hacia el cliente. Esto indica que la experiencia del cliente con el personal de la empresa es el factor más crítico en su decisión de no regresar. 
+              p Estos resultados son reveladores. Aunque factores como la muerte, mudanzas, nuevas relaciones y competencia influyen en la pérdida de clientes, la razón más significativa (68 %) es la actitud de indiferencia de los empleados hacia el cliente. Esto indica que la experiencia del cliente con el personal de la empresa es el factor más crítico en su decisión de no regresar. 
 
     p.mb-5 Las conclusiones del estudio enfatizan la importancia del servicio al cliente en la retención de clientes. Las empresas reconocen que es más costoso atraer nuevos clientes que conservar a los existentes. Por lo tanto, mientras que es beneficioso seguir captando nuevos clientes, es esencial mantener satisfechos a los actuales.
 
@@ -196,15 +196,15 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El CRM #[i (Customer Relationship Management)] es un modelo de gestión de #[i marketing,] creado para administrar la relación con el cliente a través de un #[i software ] denominado de la misma forma,  tiene como objetivo recolectar datos e información del cliente y caracterizarlo, conociendo sus gustos, preferencias, tendencias y hasta las insatisfacciones; de esta forma la empresa puede adelantarse y adaptar el producto a sus necesidades; igualmente, puede añadir valor agregado a la oferta tomando ventaja sobre la competencia.
 
-    p.mb-5(data-aos="fade-down-right") El promotor de ventas puede jugar varios papeles dentro del punto de venta: degustador, impulsador, demostrador o representante – vendedor. De acuerdo con esto, podrá usar y direccionar a los clientes al uso de esta herramienta, que generalmente esta publicada en la web de la empresa para consignar la información que se va obteniendo. En los casos donde el promotor está encargado del contacto inicial, el cual incluye desde el saludo al cliente al ingresar al punto de ventas hasta el cierre de la venta y el seguimiento de la misma, deberá ir registrando sistemáticamente toda la información que obtenga del cliente en el CRM, y usarla cada vez que lo atienda, mediante la realimentación de información sobre sus gustos y preferencias y de todos aquellos datos que le van a permiten realizar una nueva venta. 
+    p.mb-5(data-aos="fade-down-right") El promotor de ventas puede jugar varios papeles dentro del punto de venta: degustador, impulsador, demostrador o representante – vendedor. De acuerdo con esto, podrá usar y direccionar a los clientes al uso de esta herramienta, que generalmente esta publicada en la web de la empresa para consignar la información que se va obteniendo. En los casos donde el promotor está encargado del contacto inicial, el cual incluye desde el saludo al cliente al ingresar al punto de ventas hasta el cierre de la venta y el seguimiento de la misma, deberá ir registrando sistemáticamente toda la información que obtenga del cliente en el CRM, y usarla cada vez que lo atienda, mediante la realimentación de información sobre sus gustos y preferencias y de todos aquellos datos que le van a permitir realizar una nueva venta. 
 
     Separador
 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 7.2. Proceso de atención de quejas y reclamos
 
-    p(data-aos="fade-down-right") Para las empresas el manejo apropiado y oportuno de las quejas y reclamos les representa el mejoramiento de la calidad del servicio y del producto. Es un tema relevante que tiene un proceso y un mecanismo de respuesta.  
-    p.mb-5(data-aos="fade-down-left") Los promotores de ventas deben estar preparados para reconocer las acciones más simples que puede tener un cliente por motivo de queja, esto incluye el conocimiento sobre normatividad de protección al consumidor y sus entidades de control. Éstas hacen valer sus derechos; de no estar atentos a sus requerimientos y brindar las soluciones pertinentes puede traer consecuencias como: restricción de la venta del producto, exigencia del cambio de publicidad y acciones legales, entre otras. De otro lado, el promotor también debe saber que a las empresas les interesa tener un excelente servicio al cliente con el fin de mantenerlo satisfecho y evitar futuras quejas, porque finalmente repercutirá en sus ventas.
+    p(data-aos="fade-down-right") Para las empresas, el manejo apropiado y oportuno de las quejas y reclamos les representa el mejoramiento de la calidad del servicio y del producto. Es un tema relevante que tiene un proceso y un mecanismo de respuesta.  
+    p.mb-5(data-aos="fade-down-left") Los promotores de ventas deben estar preparados para reconocer las acciones más simples que puede tener un cliente por motivo de queja, esto incluye el conocimiento sobre normatividad de protección al consumidor y sus entidades de control. Estas hacen valer sus derechos; de no estar atentos a sus requerimientos y brindar las soluciones pertinentes, puede traer consecuencias como: restricción de la venta del producto, exigencia del cambio de publicidad y acciones legales, entre otras. De otro lado, el promotor también debe saber que a las empresas les interesa tener un excelente servicio al cliente con el fin de mantenerlo satisfecho y evitar futuras quejas, porque finalmente repercutirá en sus ventas.
 
     .row.justify-content-center.align-items-center.py-3.px-lg-5.px-4(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
@@ -301,7 +301,7 @@
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h5.mb-0 Reposición
-            p.text-center.mb-0.px-2 En estos casos los proveedores realizan un análisis del costo que significa recibir el producto y sustituirlo vs el costo de no satisfacer el cliente
+            p.text-center.mb-0.px-2 En estos casos los proveedores realizan un análisis del costo que significa recibir el producto y sustituirlo vs el costo de no satisfacer el cliente.
 
     p(data-aos="fade-down-right") De acuerdo a esto, las empresas que administran con orientación hacia el servicio al cliente, tienen establecidos protocolos y ayudas que permiten atender cada caso, dándole solución y evitar que el cliente tenga que acudir a otras instancias. Sin embargo, el interés principal en la atención al cliente es hacerle sentir satisfecho y mantenerlo fiel al producto o la marca. Lo más importante en una queja es “escuchar”. Se deben conocer los detalles y el punto de vista del cliente, tenga o no tenga la razón. Una atención amable e interesada puede hacer más fácil la situación con el cliente.
     p.mb-5(data-aos="fade-down-left")  Algunas de las técnicas para cada etapa en el proceso de servicio al cliente son:
@@ -442,7 +442,7 @@
         .col-xl-7.order-2.order-xl-1.pe-xl-4
           LineaTiempoD.color-primario.linea-tiempo-edit(data-aos="fade-right")
             .d-block(numero="1" titulo="Neutral cerrada")
-              p.mb-2 Genera la respuesta monosilábica. Si o no. Puede dar información pero no estimula a seguir conversando. 
+              p.mb-2 Genera la respuesta monosilábica. Si o no. Puede dar información pero, no estimula a seguir conversando. 
 
             .d-block(numero="2" titulo="Neutral abierta")
               p.mb-2 La pregunta de este tipo usualmente comienzan con ¿Qué?, ¿Por qué?  o ¿Cómo? e invita a la persona interrogada a hablar del tema en términos de sus propias prioridades.
@@ -466,7 +466,7 @@
     #t_7_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 7.4. Acciones de mejoramiento
 
-    p.mb-5 Las acciones de mejoramiento en las actividades de promoción deben estar relacionadas con el servicio al cliente, dado que, a través de este, se logran establecer nuevas necesidades del consumidor que se presentan como quejas o reclamos por algún tipo de insatisfacción, estas  permiten ajustar tanto el producto como las campañas promocionales, de acuerdo a dichas necesidades.
+    p.mb-5 Las acciones de mejoramiento en las actividades de promoción deben estar relacionadas con el servicio al cliente, dado que, a través de este, se logran establecer nuevas necesidades del consumidor que se presentan como quejas o reclamos por algún tipo de insatisfacción, estas permiten ajustar tanto el producto como las campañas promocionales, de acuerdo a dichas necesidades.
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-right")
       .bloque-texto-g__img(

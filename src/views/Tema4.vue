@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img-01.png', alt='')
 
-    p.mb-5 Dentro de las técnicas que buscan medir la satisfacción del cliente y el comportamiento del consumidor mencionamos la encuesta y la observación, cada una con una forma particular de desarrollo y aplicación: 
+    p.mb-5 Dentro de las técnicas que buscan medir la satisfacción del cliente y el comportamiento del consumidor mencionamos, la encuesta y la observación, cada una con una forma particular de desarrollo y aplicación: 
 
     Separador
 
@@ -178,8 +178,8 @@
       .col-lg-4.col-10.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema4/img-03.svg', alt='')
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
-        p Es el registro visual de lo que ocurre en una situación real dentro del punto de venta al observar el comportamiento del consumidor. No es necesario abordarlo o preguntarle algo específico, por lo general, al usar esta técnica el observador se mantiene encubierto.
-        p Como instrumento de aplicación se utiliza una lista de chequeo, en donde se va registrando si el cliente realizo o no una acción. Otra forma de registrar información observada, es a través de los informes que entregan los promotores de venta o las personas que tienen contacto directo con el cliente, en algunos casos estos informes estarán organizados de acuerdo a las pautas suministradas por los gerentes de mercadeo, de los directivos o de jefes. Se realizan en formatos preestablecidos, pueden contener los comentarios u observaciones que el cliente quiere hacer llegar a través del promotor. 
+        p Es el registro visual de lo que ocurre en una situación real dentro del punto de venta al observar el comportamiento del consumidor. No es necesario abordarlo o preguntarle algo específico, por lo general, al usar esta técnica, el observador se mantiene encubierto.
+        p Como instrumento de aplicación se utiliza una lista de chequeo, en donde se va registrando si el cliente realizó o no una acción. Otra forma de registrar información observada, es a través de los informes que entregan los promotores de venta o las personas que tienen contacto directo con el cliente, en algunos casos estos informes estarán organizados de acuerdo a las pautas suministradas por los gerentes de mercadeo, de los directivos o de jefes. Se realizan en formatos preestablecidos, pueden contener los comentarios u observaciones que el cliente quiere hacer llegar a través del promotor. 
         .cajon.color-primario.p-4.mb-4(style="background-color:#FFECDA")
           p.mb-0 Las ventajas de usar la técnica de observación es que permite obtener información importante a través de comportamientos espontáneos, de la tendencia sobre la selección de un producto, o la información que las personas no pueden o no quieren brindar por algún motivo. Entre las desventajas de utilizar esta técnica, se encuentra el hecho de no poder determinar emociones, actitudes o motivaciones que llevan a un consumidor a realizar un acto. Esta técnica es más usada cuando lo que se desea saber del cliente es su comportamiento, y no su grado de satisfacción respecto a un producto.
 

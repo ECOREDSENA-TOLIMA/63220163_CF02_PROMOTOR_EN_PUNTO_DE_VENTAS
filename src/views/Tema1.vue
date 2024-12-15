@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-01.png', alt='')
 
-    p.mb-5 Medir la satisfacción del cliente es un elemento clave para el éxito de las actividades comerciales de una empresa y con la información que se recolecte hacer el análisis para realizar los ajustes a los que haya lugar.   También es importante que las empresas puedan medir la repercusión de cada una de las acciones promocionales en las ventas y evaluar la relación costo – beneficio.
+    p.mb-5 Medir la satisfacción del cliente es un elemento clave para el éxito de las actividades comerciales de una empresa y con la información que se recolecte hacer, el análisis para realizar los ajustes a los que haya lugar.   También es importante que las empresas puedan medir la repercusión de cada una de las acciones promocionales en las ventas y evaluar la relación costo – beneficio.
 
     Separador
 
@@ -45,7 +45,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-down-right")
         .cajon.color-primario.p-4(style="background-color:#FFECDA")
-          p.mb-0 La satisfacción de la necesidad está directamente relacionada con la satisfacción del cliente, porque cuando el cliente se decide por un producto luego de evaluar alternativas, lo hace sobre el que le brinda mayor satisfacción, ya sea basado en variables de precio, calidad, comodidad o de otras, brindadas a través de acciones promocionales; estas últimas son del tipo de repercusión que le interesa medir al empresario para conocer la efectividad se su campaña. 
+          p.mb-0 La satisfacción de la necesidad está directamente relacionada con la satisfacción del cliente, porque cuando el cliente se decide por un producto luego de evaluar alternativas, lo hace sobre el que le brinda mayor satisfacción, ya sea basado en variables de precio, calidad, comodidad o de otras, brindadas a través de acciones promocionales; estas últimas son del tipo de repercusión que le interesa medir al empresario para conocer la efectividad de su campaña. 
 
     p.mb-5(data-aos="fade-down-left") La promoción de ventas es presión de #[i marketing] que se realiza a través de la publicidad por un periodo de tiempo determinado para estimular en forma directa la compra por parte del consumidor.  Las campañas promocionales tienen objetivos claros como son: incrementar la demanda, promover pruebas de producto entre nuevos usuarios, introducir nuevos productos al mercado o estimular al uso repetido del producto. Con base en estos objetivos es necesario conocer el grado de satisfacción del cliente, bien sea para hacer correcciones, o para tener los fundamentos para una nueva o próxima campaña promocional; igualmente, para evaluar el beneficio económico que recibe la empresa a través de las acciones promocionales. 
 

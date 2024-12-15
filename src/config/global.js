@@ -189,7 +189,7 @@ export default {
   },
   complementario: [
     {
-      tema: '2.	Recolección y registro de información',
+      tema: 'Recolección y registro de información',
       referencia:
         'BIOESTADISTICO. (2012). 19. Técnicas de recolección de datos | Metodología de la investigación científica',
       tipo: 'Video en línea',
